@@ -54,10 +54,8 @@ const BorderRadius kAllBorderRadius = BorderRadius.all(
 );
 
 
-const String OPEN_AI_KEY = "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";
-const String baseURL = "https://api.openai.com/v1/chat/";
 
-String endPoint(String endPoint) => "$baseURL/$endPoint";
+
 
 Map<String, String> headerBearerOption(String token) => {
   "Content-Type": "application/json",
